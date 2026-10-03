@@ -8,7 +8,7 @@ Mostrare che un checkout capace di restituire una conferma nel caso felice può 
 
 ## Traccia per il docente
 
-1. Mostrare questa richiesta volutamente vaga: «Crea un checkout semplice che prenda un carrello, chieda il pagamento e mostri la conferma». Spiegare che il [prototipo fornito](step-01-prototipo/demo.py) è una *simulazione didattica* dell'output che una richiesta così incompleta potrebbe produrre, non il risultato attribuito a uno specifico modello.
+1. Mostrare il [prompt volutamente vago](step-01-prototipo/prompt-vago.md); facoltativamente eseguirlo live in una cartella di prova. Spiegare che il [prototipo fornito](step-01-prototipo/demo.py) è una *simulazione didattica* dell'output che una richiesta così incompleta potrebbe produrre, non il risultato attribuito a uno specifico modello.
 2. Eseguire [step 01](step-01-prototipo/README.md). Il caso felice restituisce un ordine `PAID`; chiedere all'aula se basta per accettare la modifica.
 3. Osservare le tre prove: autorizzazione transitoria non ritentata, richiesta ripetuta che crea due ordini, prezzo di riga alterato accettato senza confronto con catalogo/snapshot validato.
 4. Aprire [step 02](step-02-analisi/README.md), far compilare la checklist individualmente o in coppia e confrontarla con la [revisione di riferimento](step-02-analisi/expected/review-example.md).
