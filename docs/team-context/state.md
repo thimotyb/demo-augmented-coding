@@ -14,8 +14,9 @@
 | --- | --- | --- |
 | M01 | Demo offline pronta; `python3 scripts/check_m01.py` passa | Conservare come baseline; usare le tre lacune per M02/M03 |
 | M02 | Step 01 predisposto: prompt comune, criteri e piani editoriali di esempio | Eseguire Codex e Claude Code in Plan Mode sullo stesso commit, registrare differenze e decisioni |
-| M03–M12 | Scaffold documentale | Implementare in ordine, una demo riproducibile per volta |
-| M13 | Scaffold per modelli locali | Macchina GPU: rilevare ambiente e provare i task solo quando lo step sarà preparato |
+| M03 | Step 02 Spec Kit preparato: artefatti di riferimento, mini demo Python e test prima/dopo; soluzione di riferimento passa | Eseguire il flusso live con Claude e Codex, confrontare gli output e aggiornare i materiali dopo aver provato i comandi Spec Kit |
+| M04–M11 | Scaffold documentale | Implementare in ordine, una demo riproducibile per volta |
+| M12 | Laboratorio eseguibile su agenti e modelli locali, con fixture Java 21 | Provare i profili sul sistema GPU e annotare modelli, versioni e risultati senza esporre dati personali |
 
 ## Domande aperte
 
@@ -24,4 +25,4 @@
 
 ## Coordinamento
 
-La macchina GPU può iniziare dal [brief di inventario M13](gpu-brief.md) in branch separato. Chi lavora su M02 evita di modificare i file M13. Ogni passaggio usa [`handoff-template.md`](handoff-template.md) e una PR o un commit identificabile.
+La macchina GPU può iniziare dal [brief di inventario M12](gpu-brief.md) in branch separato. Chi lavora su M02 evita di modificare i file M12. Per il punto di ripresa di M03, leggere [handoff M03 Spec Kit](handoff-m03-speckit-2026-10-06.md). Ogni passaggio usa [`handoff-template.md`](handoff-template.md) e una PR o un commit identificabile.

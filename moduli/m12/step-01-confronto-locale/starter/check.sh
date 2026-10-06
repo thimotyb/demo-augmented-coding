@@ -9,7 +9,7 @@ if ! command -v javac >/dev/null 2>&1; then
   exit 127
 fi
 
-build_dir="${TMPDIR:-/tmp}/m13-payment-retry-$$"
+build_dir="${TMPDIR:-/tmp}/m12-payment-retry-$$"
 cleanup() {
   rm -rf "$build_dir"
 }

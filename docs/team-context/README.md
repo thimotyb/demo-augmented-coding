@@ -13,11 +13,11 @@ git pull --ff-only
 git status --short --branch
 ```
 
-Aprire Codex dalla radice del clone e chiedere: «Leggi `AGENTS.md` e `docs/team-context/state.md`; verifica in Git lo stato corrente e proponi il prossimo passo del modulo assegnato». Assegnare **branch diversi** alle due macchine, per esempio `demo/m02-plan-mode` e `demo/m13-gpu`; integrare tramite PR o commit revisionato. Non far scrivere a entrambi `main` contemporaneamente. Prima del passaggio, compilare una copia di [`handoff-template.md`](handoff-template.md), includere commit e test effettivi, e pubblicarla insieme ai file del task.
+Aprire Codex dalla radice del clone e chiedere: «Leggi `AGENTS.md` e `docs/team-context/state.md`; verifica in Git lo stato corrente e proponi il prossimo passo del modulo assegnato». Assegnare **branch diversi** alle due macchine, per esempio `demo/m02-plan-mode` e `demo/m12-gpu`; integrare tramite PR o commit revisionato. Non far scrivere a entrambi `main` contemporaneamente. Prima del passaggio, compilare una copia di [`handoff-template.md`](handoff-template.md), includere commit e test effettivi, e pubblicarla insieme ai file del task.
 
 Dopo una modifica ad `AGENTS.md`, avviare una nuova sessione Codex per caricare le istruzioni aggiornate: la scoperta dei file avviene all'avvio della sessione. Il file `CLAUDE.md` importa le stesse istruzioni per Claude Code. [OpenAI Docs: scoperta di `AGENTS.md`](https://learn.chatgpt.com/docs/agent-configuration/agents-md), [Claude Code: importazioni](https://code.claude.com/docs/en/memory).
 
-Per avviare subito un lavoro indipendente sulla seconda macchina, usa il [brief della GPU](gpu-brief.md). Chiede un inventario tecnico per M13 senza installare modelli né modificare M02.
+Per avviare subito un lavoro indipendente sulla seconda macchina, usa il [brief della GPU](gpu-brief.md). Chiede un inventario tecnico per M12 senza installare modelli né modificare M02.
 
 ## Obsidian
 

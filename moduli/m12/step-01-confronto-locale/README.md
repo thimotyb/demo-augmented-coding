@@ -1,4 +1,4 @@
-# M13 — Compare local coding agents
+# M12 — Compare local coding agents
 
 This lab connects Claude Code and OpenCode to Ollama, then asks multiple local
 models to solve the same Java 21 task. Run every candidate from a fresh copy of
@@ -220,7 +220,7 @@ comparison. Install it with one of the commands in the
 [official installation guide](https://opencode.ai/docs/).
 
 The **repository root** is the top-level directory of this cloned project, not the
-`moduli/m13/step-01-confronto-locale` directory. It is the directory that contains
+`moduli/m12/step-01-confronto-locale` directory. It is the directory that contains
 the top-level `README.md`, `caso-guida/`, `moduli/`, and `scripts/`. In the example
 environment used to prepare this workshop, its absolute path is:
 
@@ -233,7 +233,7 @@ from the same location:
 
 ```bash
 cd /home/thimoty/git/demo-augmented-coding
-cp moduli/m13/step-01-confronto-locale/opencode.json.example opencode.json
+cp moduli/m12/step-01-confronto-locale/opencode.json.example opencode.json
 opencode
 ```
 
@@ -253,12 +253,12 @@ You can confirm that you are in the correct directory before launching OpenCode:
 
 ```bash
 pwd
-test -f README.md && test -d moduli/m13 && echo "Repository root found"
+test -f README.md && test -d moduli/m12 && echo "Repository root found"
 ```
 
 Starting OpenCode here gives it access to the complete teaching repository. Later,
 when comparing models, change to the specific disposable directory under
-`moduli/m13/step-01-confronto-locale/runs/` before starting a new agent session if
+`moduli/m12/step-01-confronto-locale/runs/` before starting a new agent session if
 you want that session to focus on one benchmark run. The working directory is not
 a security sandbox, so continue to review every requested file operation.
 
@@ -296,7 +296,7 @@ The fixture has no build-tool or network dependency. `PaymentRetryService` must:
 Prepare an isolated working copy and observe the expected initial failure:
 
 ```bash
-cd moduli/m13/step-01-confronto-locale
+cd moduli/m12/step-01-confronto-locale
 ./scripts/prepare-run.sh qwen35
 cd runs/qwen35
 ./check.sh

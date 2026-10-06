@@ -1,11 +1,11 @@
-# M09 — Sicurezza
+# M09 — DevOps e CI
 
 **Stato: struttura predisposta; demo non ancora implementata.**
 
-**Obiettivo previsto:** Analizzare un finding concreto nel checkout. Il caso resta quello in [caso-guida](../../caso-guida/README.md).
+**Obiettivo previsto:** Mettere test e scansioni in un gate. Il caso resta quello in [caso-guida](../../caso-guida/README.md).
 
 | Step | Input previsto | Output previsto |
 | --- | --- | --- |
-| [step-01-scansione](step-01-scansione/README.md) | Codice e regola di scansione fissati | Report, triage e correzione verificata |
+| [step-01-pipeline](step-01-pipeline/README.md) | Build Maven e controlli esistenti | Pipeline con pass/fail riproducibili |
 
 Prima della lezione aggiungere file di partenza, comandi, prerequisiti, verifica automatica o osservabile e reset dello step. Non considerare questo scaffold una demo eseguibile.
