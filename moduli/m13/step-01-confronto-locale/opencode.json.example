@@ -11,7 +11,16 @@
         "baseURL": "http://127.0.0.1:11434/v1"
       },
       "models": {
-        "qwen3.5:9b": { "name": "Qwen 3.5 9B (local)" },
+        "qwen3.5:9b": {
+          "name": "Qwen 3.5 9B (local)",
+          "limit": {
+            "context": 65536,
+            "output": 16384
+          },
+          "options": {
+            "reasoningEffort": "none"
+          }
+        },
         "qwen3-coder:latest": { "name": "Qwen 3 Coder (local)" },
         "gemma4:12b": { "name": "Gemma 4 12B (local)" }
       }
