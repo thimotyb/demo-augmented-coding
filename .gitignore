@@ -32,3 +32,5 @@ target/
 Thumbs.db
 *.log
 *.tmp
+.obsidian/
+moduli/m02/step-01-plan-mode/local-output/

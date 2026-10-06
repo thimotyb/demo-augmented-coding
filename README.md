@@ -7,7 +7,7 @@ Repository degli esempi del [corso](https://github.com/thimotyb/corso-augmented-
 | Modulo | Tema | Stato |
 | --- | --- | --- |
 | [M01](moduli/m01/README.md) | Dal prototipo al software professionale | **Demo pronta**, eseguibile con Python 3 |
-| [M02](moduli/m02/README.md) | Codex, Claude Code e Plan Mode | Struttura predisposta |
+| [M02](moduli/m02/README.md) | Codex, Claude Code e Plan Mode | **Step 01 pronto**: valutazione offline e confronto live guidato |
 | [M03](moduli/m03/README.md) | Requisiti e SDD leggero | Struttura predisposta |
 | [M04](moduli/m04/README.md) | Progettazione e PlantUML | Struttura predisposta |
 | [M05](moduli/m05/README.md) | Contratto OpenAPI | Struttura predisposta |
@@ -20,7 +20,7 @@ Repository degli esempi del [corso](https://github.com/thimotyb/corso-augmented-
 | [M12](moduli/m12/README.md) | Skill e memoria del team | Struttura predisposta |
 | [M13](moduli/m13/README.md) | Modelli locali e progetto finale | Struttura predisposta |
 
-Le cartelle M02–M13 sono uno **scheletro editoriale**: gli step sono descritti, ma non ancora eseguibili. Non usarli come laboratori pronti.
+Le cartelle M03–M13 sono uno **scheletro editoriale**: gli step sono descritti, ma non ancora eseguibili. M02 ha uno step guidato con input e criteri riproducibili; i piani generati live possono variare.
 
 ## Avvio rapido di M01
 
@@ -32,6 +32,8 @@ python3 scripts/check_m01.py
 ```
 
 Il secondo comando verifica che il prototipo mostri le tre lacune previste. Un controllo riuscito conferma la **riproducibilità del difetto didattico**, non la correttezza professionale del prototipo. Proseguire con il [README di M01](moduli/m01/README.md) per la discussione guidata.
+
+Per il passo successivo, aprire [M02 — Plan Mode](moduli/m02/README.md). Per il lavoro tra la macchina principale e quella GPU, leggere [contesto condiviso e handoff](docs/team-context/README.md); `AGENTS.md` contiene le istruzioni comuni caricate dai Codex avviati nel repository.
 
 ## Convenzioni per i prossimi moduli
 
