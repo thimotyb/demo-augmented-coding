@@ -18,9 +18,9 @@ Repository degli esempi del [corso](https://github.com/thimotyb/corso-augmented-
 | [M10](moduli/m10/README.md) | DevOps e CI | Struttura predisposta |
 | [M11](moduli/m11/README.md) | GitHub e Azure DevOps MCP | Struttura predisposta |
 | [M12](moduli/m12/README.md) | Skill e memoria del team | Struttura predisposta |
-| [M13](moduli/m13/README.md) | Modelli locali e progetto finale | Struttura predisposta |
+| [M13](moduli/m13/README.md) | Local models and final comparison | **Runnable workshop**, requires Java 21 JDK and local LLM tools |
 
-Le cartelle M03–M13 sono uno **scheletro editoriale**: gli step sono descritti, ma non ancora eseguibili. M02 ha uno step guidato con input e criteri riproducibili; i piani generati live possono variare.
+Le cartelle M03–M12 sono uno **scheletro editoriale**: gli step sono descritti, ma non ancora eseguibili. M02 ha uno step guidato con input e criteri riproducibili; i piani generati live possono variare. M13 contiene un laboratorio ripetibile con fixture Java 21, prompt e scorecard.
 
 ## Avvio rapido di M01
 

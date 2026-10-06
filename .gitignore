@@ -19,6 +19,7 @@ credentials/
 .ssh/
 .claude/settings.local.json
 .codex/
+/opencode.json
 .venv/
 venv/
 node_modules/
