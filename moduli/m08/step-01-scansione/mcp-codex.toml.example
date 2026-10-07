@@ -1,0 +1,7 @@
+# Copiare questa sezione nel file personale ~/.codex/config.toml.
+# Avviare Codex dalla shell che contiene SONARQUBE_TOKEN (user token locale).
+# Il container MCP condivide la rete Compose locale con SonarQube.
+[mcp_servers.sonarqube_m08]
+command = "docker"
+args = ["run", "--init", "-i", "--rm", "--network", "m08-sonarqube_default", "-e", "SONARQUBE_TOKEN", "-e", "SONARQUBE_URL", "-e", "SONARQUBE_READ_ONLY", "sonarsource/sonarqube-mcp@sha256:71fd8ffd1556b703438ff18342c36d3776fd6016faf0e12f66482c9d07c1dcb5"]
+env = { SONARQUBE_URL = "http://sonarqube:9000", SONARQUBE_READ_ONLY = "true" }

@@ -1,11 +1,11 @@
 # M08 — Sicurezza
 
-**Stato: struttura predisposta; demo non ancora implementata.**
+**Stato: demo locale eseguibile; scansione SonarQube e ricerche MCP verificate il 7 ottobre 2026.**
 
-**Obiettivo previsto:** Analizzare un finding concreto nel checkout. Il caso resta quello in [caso-guida](../../caso-guida/README.md).
+**Obiettivo:** Analizzare un finding concreto nel checkout sintetico. Il caso resta quello in [caso-guida](../../caso-guida/README.md).
 
-| Step | Input previsto | Output previsto |
+| Step | Input | Output |
 | --- | --- | --- |
-| [step-01-scansione](step-01-scansione/README.md) | Codice e regola di scansione fissati | Report, triage e correzione verificata |
+| [step-01-scansione](step-01-scansione/README.md) | Backend Java 21 sintetico, Docker Compose per SonarQube e PostgreSQL | Report SonarQube, ricerca via MCP, triage e successiva correzione verificata |
 
-Prima della lezione aggiungere file di partenza, comandi, prerequisiti, verifica automatica o osservabile e reset dello step. Non considerare questo scaffold una demo eseguibile.
+La demo richiede Docker Engine attivo, Java 21 e Maven. Il backend M06 completo non è un prerequisito.
