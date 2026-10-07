@@ -11,7 +11,7 @@ Repository degli esempi del [corso](https://github.com/thimotyb/corso-augmented-
 | [M03](moduli/m03/README.md) | Requisiti e SDD | Step 02 pronto: flusso Spec Kit, artefatti di riferimento e prova live guidata |
 | [M04](moduli/m04/README.md) | Progettazione e PlantUML | Struttura predisposta |
 | [M05](moduli/m05/README.md) | Contratto OpenAPI e playbook Postman | **Playbook eseguibili** contro Prism locale; 5 scenari, Newman e collection generata dal profilo OAS |
-| [M06](moduli/m06/README.md) | Coding assistito e React | Struttura predisposta |
+| [M06](moduli/m06/README.md) | Coding assistito e React | Piano task-based per API Java/Spring Boot e UI React/Material UI; implementazione non inclusa |
 | [M07](moduli/m07/README.md) | Test e regressione | Struttura predisposta |
 | [M08](moduli/m08/README.md) | Sicurezza | Struttura predisposta |
 | [M09](moduli/m09/README.md) | DevOps e CI | Struttura predisposta |
