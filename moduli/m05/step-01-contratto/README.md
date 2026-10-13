@@ -24,6 +24,10 @@ Prism resta in ascolto su `127.0.0.1`; il bearer token e i dati sono fixture did
 
 Per rigenerare il file Postman dopo aver cambiato la specifica o lo YAML dei playbook, eseguire `npm run generate`. La collection non va modificata a mano: la sorgente degli scenari è `scenarios/postman-playbooks.yaml`, mentre payload e risposte provengono dagli esempi nominati in OpenAPI.
 
+### Verifica API Governance con Spectral
+
+La cartella [`spectral/`](spectral/README.md), accanto a `openapi/` e `postman/`, contiene i ruleset, i comandi e la procedura per esportare i file ufficiali da API Stylebook. I tre controlli coprono OWASP Top 10, URL Style Guidelines e Documentation.
+
 ### Confini della copertura
 
 - Il sequence diagram checkout include `createShipment`, ma l'OAS sorgente espone solo `GET /orders/{orderId}/shipment`: la collection non inventa un `POST` e segnala il gap.

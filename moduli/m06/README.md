@@ -7,5 +7,6 @@
 | Step | Input previsto | Output previsto |
 | --- | --- | --- |
 | [step-01-implementazione](step-01-implementazione/README.md) | Piano task-based, contratto approvato e progetto Maven | Build API e UI riproducibili |
+| [step-02-ui02-wireframe](step-02-ui02-wireframe/README.md) | Task `UI-02` e documentazione Material UI via MCP | Prototipo React cliccabile con fixture locali; non è il completamento del task pianificato |
 
 Il [prompt](step-01-implementazione/prompt-implementation-plan.md) genera un piano Markdown con stadi ordinati e codici task stabili. Ogni task inizia con `[ ] DONE`; quando i criteri di accettazione sono verificati, la casella diventa `[x] DONE`. Il [piano di riferimento](step-01-implementazione/planning/implementation-plan.md) applica il prompt alle fonti del caso guida e registra decisioni, dipendenze, verifiche, criteri di accettazione e limiti. Si chiude con una tabella sintetica in ordine suggerito, dipendenze e stato, evidenziando le attività parallele. Ogni task può essere richiesto all'agente usando il suo codice dopo aver verificato i prerequisiti. Il piano non costituisce una demo eseguibile.

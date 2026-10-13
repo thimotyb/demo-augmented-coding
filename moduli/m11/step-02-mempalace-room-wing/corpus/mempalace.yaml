@@ -1,0 +1,6 @@
+wing: augmented-coding
+rooms:
+- name: team_memory
+  description: decisioni di progetto, handoff e stato dei task
+- name: cost_control
+  description: gestione di sessioni, modelli e costi

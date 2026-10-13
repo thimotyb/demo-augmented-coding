@@ -9,17 +9,17 @@ Repository degli esempi del [corso](https://github.com/thimotyb/corso-augmented-
 | [M01](moduli/m01/README.md) | Dal prototipo al software professionale | **Demo pronta**, eseguibile con Python 3 |
 | [M02](moduli/m02/README.md) | Codex, Claude Code e Plan Mode | **Step 01 pronto**: valutazione offline e confronto live guidato |
 | [M03](moduli/m03/README.md) | Requisiti e SDD | Step 02 pronto: flusso Spec Kit, artefatti di riferimento e prova live guidata |
-| [M04](moduli/m04/README.md) | Progettazione e PlantUML | Struttura predisposta |
+| [M04](moduli/m04/README.md) | Progettazione e PlantUML | **Viste architetturali pronte**: requisiti, diagramma componenti, ArchiMate a tre livelli e matrice di tracciabilità |
 | [M05](moduli/m05/README.md) | Contratto OpenAPI e playbook Postman | **Playbook eseguibili** contro Prism locale; 5 scenari, Newman e collection generata dal profilo OAS |
 | [M06](moduli/m06/README.md) | Coding assistito e React | Piano task-based per API Java/Spring Boot e UI React/Material UI; implementazione non inclusa |
 | [M07](moduli/m07/README.md) | Test e regressione | Struttura predisposta |
 | [M08](moduli/m08/README.md) | Sicurezza | Struttura predisposta |
 | [M09](moduli/m09/README.md) | DevOps e CI | Struttura predisposta |
 | [M10](moduli/m10/README.md) | GitHub e Azure DevOps MCP | Struttura predisposta |
-| [M11](moduli/m11/README.md) | Skill e memoria del team | Struttura predisposta |
+| [M11](moduli/m11/README.md) | Skill e memoria del team | **Demo CLI MemPalace pronta** con corpus sintetico; handoff e MCP da completare |
 | [M12](moduli/m12/README.md) | TUI e modelli locali | **Laboratorio eseguibile**, richiede JDK 21 e strumenti per LLM locali |
 
-Le cartelle M04–M11 sono uno **scheletro editoriale**: gli step sono descritti, ma non ancora eseguibili. M02 e M03 hanno tracce guidate con input e criteri riproducibili; i piani e le specifiche generati live possono variare. M03 include artefatti Spec Kit di riferimento e una mini demo Python con test prima/dopo implementazione. M12 contiene un laboratorio ripetibile con fixture Java 21, prompt e scorecard.
+M06 include un piano di implementazione task-based e un prototipo React cliccabile, ma l'applicazione prevista dal piano non è ancora implementata. M07–M10 restano scaffold editoriali; M11 include una demo CLI MemPalace, mentre l'handoff e il laboratorio MCP restano da completare. M02 e M03 hanno tracce guidate con input e criteri riproducibili; i piani e le specifiche generati live possono variare. M03 include artefatti Spec Kit di riferimento e una mini demo Python con test prima/dopo implementazione. M04 contiene viste architetturali riproducibili dai requisiti e dal contratto del caso guida. M12 contiene un laboratorio ripetibile con fixture Java 21, prompt e scorecard.
 
 ## Avvio rapido di M01
 

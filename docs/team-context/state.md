@@ -1,6 +1,6 @@
 # Stato condiviso del progetto
 
-**Aggiornato:** 6 ottobre 2026. Questa nota orienta il passaggio tra macchine; verificare sempre il branch e i file prima di agire.
+**Aggiornato:** 13 ottobre 2026. Questa nota orienta il passaggio tra macchine; verificare sempre il branch e i file prima di agire.
 
 ## Decisioni stabili
 
@@ -15,7 +15,11 @@
 | M01 | Demo offline pronta; `python3 scripts/check_m01.py` passa | Conservare come baseline; usare le tre lacune per M02/M03 |
 | M02 | Step 01 predisposto: prompt comune, criteri e piani editoriali di esempio | Eseguire Codex e Claude Code in Plan Mode sullo stesso commit, registrare differenze e decisioni |
 | M03 | Step 02 Spec Kit preparato: artefatti di riferimento, mini demo Python e test prima/dopo; soluzione di riferimento passa | Eseguire il flusso live con Claude e Codex, confrontare gli output e aggiornare i materiali dopo aver provato i comandi Spec Kit |
-| M04–M11 | Scaffold documentale | Implementare in ordine, una demo riproducibile per volta |
+| M04 | Demo architetturale pronta: requisiti Markdown, diagramma componenti, vista ArchiMate a tre livelli, rendering SVG e matrice requisito/API | Fare una review architetturale con il team e decidere i punti aperti solo se il progetto reale li richiede |
+| M05 | Playbook API/Postman eseguibili contro Prism locale, baseline 11 richieste e 33 asserzioni | Estendere la verifica quando sarà disponibile un backend stateful |
+| M06 | Prompt e piano task-based per API Java 21/Spring Boot e UI React/Material UI; prototipo React UI-02 cliccabile con fixture, applicazione pianificata non implementata | Approvare versioni, generatore Maven, layout e confini API prima di implementare PROJ-01 |
+| M07–M10 | Scaffold documentale | Implementare in ordine, una demo riproducibile per volta |
+| M11 | Demo CLI MemPalace con corpus sintetico, wing/room e risultati osservati; handoff e MCP restano da realizzare | Preparare la demo MCP e il passaggio fra partecipanti separatamente |
 | M12 | Laboratorio eseguibile su agenti e modelli locali, con fixture Java 21 | Provare i profili sul sistema GPU e annotare modelli, versioni e risultati senza esporre dati personali |
 
 ## Domande aperte

@@ -1,18 +1,17 @@
 # M04 — Progettazione e PlantUML
 
-**Stato: struttura predisposta; contenuto della demo da definire a partire dai requisiti architetturali.**
+**Stato: demo eseguibile.** Il laboratorio parte dai requisiti architetturali del checkout e produce due viste logiche con AI, poi le revisiona rispetto alle sequenze e al contratto OpenAPI del caso guida.
 
-**Obiettivo previsto:** Partire da requisiti architetturali Markdown e usare l'AI per elaborare un diagramma PlantUML di architettura e una vista ArchiMate che colleghi processo di business, servizi/API e backend. Il caso resta quello in [caso-guida](../../caso-guida/README.md).
-
-| Step | Input previsto | Output previsto |
+| Step | Input | Risultato |
 | --- | --- | --- |
-| [step-01-architettura](step-01-architettura/README.md) | Requisiti architetturali Markdown, caso checkout e contratto API | ADR, diagramma di architettura e vista ArchiMate PlantUML a tre livelli |
+| [step-01-architettura](step-01-architettura/README.md) | Requisiti, sequenze e OpenAPI | Requisiti architetturali versionati, diagramma componenti, vista ArchiMate business/applicazione/tecnologia e matrice di tracciabilità |
 
-**TODO:** definire `architecture-requirements.md` con obiettivi, vincoli, attributi di qualità, confini, responsabilità, decisioni aperte e ID stabili. Generare da quella fonte:
+La cartella contiene la fonte `architecture-requirements.md`, i sorgenti `.puml` e i rendering SVG. Il diagramma architetturale esplicita le API del contratto e separa le chiamate interne; la vista ArchiMate collega processi, servizi e componenti. Le allocazioni sono una proposta logica: i requisiti non fissano microservizi, runtime, database o deployment.
 
-1. una vista architetturale PlantUML con componenti, servizi, API, backend e sistemi esterni;
-2. una vista ArchiMate PlantUML che mappi il processo di business ai servizi e alle API applicative, quindi ai backend che li realizzano.
+Per rigenerare le viste, installare Java e PlantUML, entrare nello step ed eseguire:
 
-Usare una legenda stabile: livello business giallo, livello applicativo azzurro, livello tecnologico verde. Tracciare i requisiti fino a elementi e relazioni dei diagrammi e agli endpoint del contratto M05; non introdurre operazioni API non presenti nella specifica. Aggiungere sorgenti, render, istruzioni e controlli di tracciabilità nello step quando la demo viene realizzata.
+```bash
+plantuml -tsvg architecture-view.puml archimate-view.puml
+```
 
-Sintassi di riferimento: [PlantUML ArchiMate](https://plantuml.com/archimate-diagram).
+Sintassi: [supporto ArchiMate di PlantUML](https://plantuml.com/archimate-diagram).
